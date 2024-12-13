@@ -53,12 +53,9 @@
     </a>
     <div class="socials">
         <ul class="social-icons">
-          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/jigar-sable/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
           <li><a class="github" aria-label="GitHub" href="https://github.com/jigar-sable" target="_blank"><i class="fab fa-github"></i></a></li>
           <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/jigar_sable" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="telegram" aria-label="Telegram" href="https://t.me/lifecode5" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
           <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/jigarsable.dev"><i class="fab fa-instagram" target="_blank"></i></a></li>
-          <li><a class="dev" aria-label="Dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li>
         </ul>
       </div>
     </div>
@@ -68,46 +65,122 @@
 </section>
 <!-- hero section ends -->
 
-
 <!-- about section starts -->
 <section class="about" id="about">
-    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Us</span></h2>
     
     <div class="row">
 
-    <div class="image">
-        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
-    </div>
-    <div class="content">
-        <h3>I'm Jigar</h3>
-        <span class="tag">Full Stack Developer</span>
-        
-        <p>I am a Full-Stack developer based in Pune, India. 
-          I am an Information Technology undergraduate from SPPU.
-          I am very passionate about improving my coding skills & developing applications & websites.
-          I build WebApps and Websites using MERN Stack.
-          Working for myself to improve my skills.
-          Love to build Full-Stack clones. </p>
-        
-        <div class="box-container">
-            <!-- <div class="box">
-              <p><span> age: </span> 20</p>
-              <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
-            </div> -->
-            <div class="box">
-              <p><span> email : </span> jigarsable21@gmail.com</p>
-              <p><span> place : </span> Pune, India - 412206</p>
-            </div>
-        </div>
-        
-        <div class="resumebtn">
-            <a href="https://drive.google.com/file/d/1rZiXl562q7aVyk1kJ2nO85YBAq8ixTiw/view" target="_blank" class="btn"><span>Resume</span>
-                <i class="fas fa-chevron-right"></i>
-            </a>
+        <div class="image">
+            <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="Company Profile">
         </div>
 
+        <div class="content">
+            <h3>SIR M V CONSTRUCTIONS</h3>
+            <span class="tag">DESIGN . BUILD . INSPIRE</span>
+
+            <p>
+                At Sir M V Constructions, we specialize in designing and building a wide range of structures, including residential, commercial, and industrial buildings. Our portfolio also extends to interior design and specialized civil engineering works. Every project we undertake is led and executed by a team of professionally qualified and experienced civil engineers, ensuring the highest standards of quality and craftsmanship.
+            </p>
+
+            <div class="box-container">
+                <div class="box">
+                    <p><span>Email:</span> <a href="mailto:sirmvconstructions@gmail.com">sirmvconstructions@gmail.com</a></p>
+                    <p><span>Location:</span> Mysore ,Bangalore </p>
+                </div>
+            </div>
+
+            <div class="resumebtn">
+                <a href="https://drive.google.com/file/d/1rZiXl562q7aVyk1kJ2nO85YBAq8ixTiw/view" target="_blank" class="btn">
+                    <span>Download Portfolio</span> <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
     </div>
-    </div>
+
+    <style>
+        .about {
+            background: linear-gradient(to bottom right, #ffffff, #f7f7f7);
+            padding: 50px 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+        .heading {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .image {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        .image img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .content h3 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #222;
+        }
+        .tag {
+            display: block;
+            font-size: 16px;
+            font-style: italic;
+            margin: 10px 0;
+            color: #555;
+        }
+        .box-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .box {
+            flex: 1;
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        .box p {
+            margin: 0;
+            font-size: 14px;
+            color: #444;
+        }
+        .box span {
+            font-weight: bold;
+            color: #333;
+        }
+        .resumebtn .btn {
+            display: inline-flex;
+            align-items: center;
+            background: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .resumebtn .btn:hover {
+            background: #0056b3;
+        }
+        .resumebtn .btn span {
+            margin-right: 10px;
+        }
+    </style>
 </section>
 <!-- about section ends -->
 
@@ -131,41 +204,98 @@
 </section>
 <!-- skills section ends -->
 
+<!-- Cost Estimation section starts -->
+<section class="cost-estimation" id="cost-estimation">
+    <h2 class="heading">Cost Estimation Of Constructing A House In</h2>
 
-<!-- education section starts -->
-<section class="education" id="education">
+    <div class="dropdown">
+        <select name="city" id="city">
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+    </div>
 
-  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
-
-    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
-
-    <div class="box-container">
-
-    <div class="box">
-        <div class="image">
-        <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
+    <div class="cost-table">
+        <div class="cost-row">
+            <span class="type">Basic</span>
+            <span class="price">₹ 1810 /sqft (Incl. GST)</span>
         </div>
-        <div class="content">
-        <h3>Bachelor of Engineering in Information Technology</h3>
-        <p>Zeal College of engineering and research | SPPU</p>
-        <h4>2020-2024 | Pursuing</h4>
+        <div class="cost-row">
+            <span class="type">Classic</span>
+            <span class="price">₹ 1940 /sqft (Incl. GST)</span>
+        </div>
+        <div class="cost-row">
+            <span class="type">Premium</span>
+            <span class="price">₹ 2250 /sqft (Incl. GST)</span>
+        </div>
+        <div class="cost-row">
+            <span class="type">Royale</span>
+            <span class="price">₹ 2480 /sqft (Incl. GST)</span>
         </div>
     </div>
 
-    <div class="box">
-      <div class="image">
-      <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
-      </div>
-      <div class="content">
-      <h3>HSC Science | Informatic Practices</h3>
-      <p>Shri  L. G. Haria Multipurpose School | CBSE</p>
-      <h4>2018-2020 | Completed</h4>
-      </div>
+    <div class="cta">
+        <button class="start-construction">Start Your Construction</button>
     </div>
 
-</div>
+    <style>
+        .cost-estimation {
+            background: #fff8f6;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .cost-estimation .heading {
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .dropdown select {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .cost-table {
+            text-align: left;
+        }
+        .cost-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .cost-row .type {
+            font-weight: bold;
+            color: #333;
+        }
+        .cost-row .price {
+            color: #555;
+        }
+        .cta {
+            margin-top: 20px;
+        }
+        .start-construction {
+            background: #ff5722;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .start-construction:hover {
+            background: #e64a19;
+        }
+    </style>
 </section>
-<!-- education section ends -->
+<!-- Cost Estimation section ends -->
 
 
 <!-- work project section starts -->
